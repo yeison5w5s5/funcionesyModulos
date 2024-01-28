@@ -1,4 +1,4 @@
-from modulos import numeroPar, numerosPalindromos
+from modulos import numeroPar, numerosPalindromos, FuncionesPrimos
 from os import system
 def menumain():
     system("clear")
@@ -27,6 +27,9 @@ while True:
         case(2):
             system("clear")
             numerosPalindromos.palindromo()
+        case(3):
+            system("clear")
+            FuncionesPrimos.primosmenu()
         case(0):
             system("clear")
             print("\t == fin ==")
